@@ -2,7 +2,7 @@ console.log('linked');
 
 //lastIndexOf
 var thisIsTheString = 'the quick brown fox jumped over the lazy dog. the dog was very angry at the fox';
-var thisIsThePosition = thisIsTheString.lastIndexOf('dog');
+var thisIsThePosition = thisIsTheString.lastIndexOf('over');
 document.getElementById('result1').innerHTML = thisIsThePosition;
 //the first variable defines the string
 //The second one finds the last position of the start of the word in this case
@@ -21,8 +21,8 @@ document.getElementById('result2').innerHTML = thisIsTheSlice;
 
 
 //trim
-var str = 'the quick brown fox jumped over the lazy dog. the dog was very angry at the fox';
+var str = '          the quick brown fox jumped over the lazy dog. the dog was very angry at the fox';
 var thisIsTheTrim = str.trim();
-document.getElementById('result3').innerHTML = thisIsTheSlice;
+document.getElementById('result3').innerHTML = thisIsTheTrim;
 
 //cuts out empty space at the start and end of string. but not inbetween the start and end
